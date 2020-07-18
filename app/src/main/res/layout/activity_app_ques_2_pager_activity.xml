@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".questionare.App_ques_2_pager_activity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/page_namaha___27_ek1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:max="100"
+            android:progress="40"
+            android:progressBackgroundTint="#E0E0E0"
+            android:progressTint="#FF4900"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/what_brings_you_to__namaha__ek1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginTop="22dp"
+            android:fontFamily="@font/circular_bold"
+            android:gravity="center"
+            android:text="What brings you to Zyoga ?"
+            android:textColor="@color/don_t_just_work_out__work_in__color"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/progress" />
+
+        <TextView
+            android:id="@+id/this_helps_us_personalize_your_experience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/circular"
+            android:text="This helps us personalize your app."
+            android:textColor="@color/this_helps_us_personalize_your_experience_color"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/what_brings_you_to__namaha__ek1" />
+
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="60dp"
+            android:paddingEnd="60dp"
+            app:layout_constraintBottom_toTopOf="@+id/rectangle_132_ek5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/this_helps_us_personalize_your_experience"></androidx.viewpager2.widget.ViewPager2>
+
+        <View
+            android:id="@+id/rectangle_132_ek5"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:background="@drawable/rectangle_132_shape"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/button_back"
+            android:layout_width="216dp"
+            android:layout_height="54dp"
+            android:background="@color/black"
+            android:backgroundTint="@color/black"
+            android:elevation="15dp"
+            app:cardCornerRadius="9dp"
+            app:layout_constraintBottom_toTopOf="@+id/rectangle_132_ek5"
+            app:layout_constraintEnd_toStartOf="@+id/rectangle_132_ek5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/rectangle_132_ek5"
+            app:layout_constraintTop_toBottomOf="@+id/rectangle_132_ek5">
+
+            <Button
+                android:id="@+id/namaha27_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@android:color/transparent"
+                android:elevation="15dp"
+                android:fontFamily="@font/circular"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="@color/rectangle_109_color"
+                android:textSize="18sp"></Button>
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

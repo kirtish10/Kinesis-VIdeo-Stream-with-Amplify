@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/app_6_layout"
+    android:layout_height="match_parent"
+    tools:context=".login.App_6_activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/page_namaha___19_ek1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="37dp">
+
+        <EditText
+            android:id="@+id/nickname_edt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginEnd="30dp"
+            android:inputType="number"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/namaha19_edtback"
+            android:fontFamily="@font/circular"
+            android:gravity="center_horizontal"
+            android:letterSpacing="1.0"
+            android:maxLength="6"
+            android:paddingLeft="7dp"
+            android:paddingTop="10dp"
+            android:paddingRight="7dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/rectangle_109_color"
+            android:textCursorDrawable="@drawable/namaha19_cursor"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/namaha19_text"></EditText>
+
+        <TextView
+            android:id="@+id/namaha19_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginTop="84dp"
+            android:fontFamily="@font/circular_black"
+            android:gravity="center"
+            android:text="@string/please_enter_otp_we_ve_sent_you_on___91_9893052478_string"
+            android:textColor="@color/don_t_just_work_out__work_in__color"
+            android:textSize="20sp"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <View
+            android:id="@+id/verify_otp"
+            android:layout_width="315dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/rectangle_122_shape"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/circular"
+            android:text="Verify &amp; Create Account"
+            android:textColor="@color/don_t_just_work_out__work_in__color"
+            android:textSize="19sp"
+            app:layout_constraintBottom_toBottomOf="@+id/verify_otp"
+            app:layout_constraintEnd_toStartOf="@+id/verify_otp"
+            app:layout_constraintStart_toEndOf="@+id/verify_otp"
+            app:layout_constraintTop_toTopOf="@+id/verify_otp" />
+
+        <ImageView
+            android:id="@+id/namaha19_back_button"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="28dp"
+            android:contentDescription="path_32_ek10"
+            android:src="@drawable/namaha19_arrow"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

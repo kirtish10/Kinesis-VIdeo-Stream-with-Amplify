@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.App_7_activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@android:color/transparent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/page_namaha___20_ek1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/woman_in_black_bikini_sitting_on_sand_4431098_ek1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="woman_in_black_bikini_sitting_on_sand_4431098_ek1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/namaha11_back"
+                android:transitionName="back"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/namaha1_ek3"
+                android:layout_width="298dp"
+                android:layout_height="94dp"
+                android:layout_marginTop="71dp"
+                android:contentDescription="namaha1_ek3"
+                android:src="@drawable/namaha1"
+                android:transitionName="namaha1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/don_t_just_work_out__work_in__ek3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="81dp"
+                android:fontFamily="@font/circular"
+                android:text="@string/don_t_just_work_out__work_in__string"
+                android:textColor="@color/don_t_just_work_out__work_in__color"
+                android:textSize="18sp"
+                android:transitionName="text1"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/namaha1_ek3" />
+
+            <View
+                android:id="@+id/rectangle_114_ek1"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/rectangle_114_shape"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/don_t_just_work_out__work_in__ek3"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/verify_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/circular_black"
+                android:text="Password"
+                android:textColor="@color/ask_people_to_join_color"
+                android:textSize="38sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/rectangle_114_ek1" />
+
+            <View
+                android:id="@+id/login_button"
+                android:layout_width="216dp"
+                android:layout_height="54dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/rectangle_120_shape"
+                android:elevation="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/enter_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="114dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/rectangle_119_shape"
+                android:fontFamily="@font/circular"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/chapter_1__basics_of_yoga___color"
+                android:textCursorDrawable="@drawable/cursor"
+                android:textSize="20sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/verify_" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:fontFamily="@font/circular"
+                android:text="Get OTP"
+                android:textColor="@color/don_t_just_work_out__work_in__color"
+                android:textSize="18sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintBottom_toBottomOf="@+id/login_button"
+                app:layout_constraintEnd_toEndOf="@+id/login_button"
+                app:layout_constraintStart_toStartOf="@+id/login_button"
+                app:layout_constraintTop_toTopOf="@+id/login_button" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.App_5_activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/page_namaha___19_ek1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="37dp">
+
+        <EditText
+            android:id="@+id/nickname_edt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/namaha19_edtback"
+            android:fontFamily="@font/circular"
+            android:gravity="center_horizontal"
+            android:hint="Enter new password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/rectangle_109_color"
+            android:textColorHint="#BDBDBD"
+            android:textCursorDrawable="@drawable/namaha19_cursor"
+            android:textSize="20sp"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/namaha19_text"></EditText>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="51dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/namaha19_edtback"
+            android:fontFamily="@font/circular"
+            android:gravity="center_horizontal"
+            android:hint="Re - Enter new password"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:inputType="textPassword"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/rectangle_109_color"
+            android:textColorHint="#BDBDBD"
+            android:textCursorDrawable="@drawable/namaha19_cursor"
+            android:textSize="20sp"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nickname_edt"></EditText>
+
+        <TextView
+            android:id="@+id/namaha19_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginTop="84dp"
+            android:fontFamily="@font/circular_black"
+            android:gravity="center"
+            android:text="Create New Password"
+            android:textColor="@color/don_t_just_work_out__work_in__color"
+            android:textSize="30sp"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <View
+            android:id="@+id/create_account_button"
+            android:layout_width="315dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/rectangle_122_shape"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/circular"
+            android:text="Verify with OTP"
+            android:textColor="@color/don_t_just_work_out__work_in__color"
+            android:textSize="19sp"
+            app:layout_constraintBottom_toBottomOf="@+id/create_account_button"
+            app:layout_constraintEnd_toStartOf="@+id/create_account_button"
+            app:layout_constraintStart_toEndOf="@+id/create_account_button"
+            app:layout_constraintTop_toTopOf="@+id/create_account_button" />
+
+        <ImageView
+            android:id="@+id/namaha24_back_button"
+            android:layout_width="11.162117004395dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="28dp"
+            android:contentDescription="path_32_ek10"
+            android:src="@drawable/namaha19_arrow"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

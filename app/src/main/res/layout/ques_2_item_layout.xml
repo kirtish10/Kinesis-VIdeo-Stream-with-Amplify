@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_height="198dp"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/back_view"
+        android:layout_width="140dp"
+        android:layout_height="168dp"
+        android:layout_gravity="center"
+        app:strokeWidth="3dp"
+        app:strokeColor="@color/orange"
+        app:cardCornerRadius="9dp"
+        app:cardBackgroundColor="@color/rectangle_129_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/namaha22_image"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="istockphoto_920920498_612x612"
+                android:src="@drawable/namaha22_image1"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:transitionName="image1"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/namaha22_text"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="@font/circular"
+                android:text="Sleep Better"
+                android:textColor="#ffffff"
+                android:transitionName="text1"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/namaha22_image" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

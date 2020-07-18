@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/rectangle_98_color"
+    android:layout_height="match_parent"
+    tools:context=".App_music1_activity">
+
+    <ImageView
+        android:id="@+id/namaha14_back_button"
+        android:layout_width="11.162117004395dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="path_32_ek10"
+        android:src="@drawable/namaha19_arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/ellipse_38"
+        android:layout_width="187dp"
+        android:layout_height="187dp"
+        android:layout_marginStart="283dp"
+        android:layout_marginLeft="283dp"
+        android:layout_marginBottom="571dp"
+        android:background="@drawable/ellipse_23_shape"
+        android:backgroundTint="@color/ellipse_37_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/basics_of_yoga_ek1"
+        android:layout_width="0dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/circular_black"
+        android:text="Basics of Yoga"
+        android:textColor="@color/don_t_just_work_out__work_in__color"
+        android:textSize="31sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/ellipse_38"
+        app:layout_constraintStart_toEndOf="@+id/namaha14_back_button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/chapter_1"
+        android:layout_width="82dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/circular_bold"
+        android:text="Chapter 1"
+        android:textColor="@color/don_t_just_work_out__work_in__color"
+        android:textSize="18sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/basics_of_yoga_ek1" />
+
+    <TextView
+        android:id="@+id/_3_10_min_course"
+        android:layout_width="136dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="22dp"
+        android:fontFamily="@font/circular_bold"
+        android:text="3-10 min Course"
+        android:textColor="@color/don_t_just_work_out__work_in__color"
+        android:textSize="18sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chapter_1" />
+
+    <View
+        android:id="@+id/player_back"
+        android:layout_width="0dp"
+        android:layout_height="213dp"
+        android:background="@drawable/music_player_back"
+        android:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="187dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="22dp"
+        android:backgroundTint="#E0E0E0"
+        app:cardCornerRadius="18dp"
+        android:id="@+id/video_btn"
+        app:layout_constraintBottom_toTopOf="@+id/song_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/path_11_ek6"
+                android:layout_width="18.800048828125dp"
+                android:layout_height="18.7998046875dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:src="@drawable/swipe_up_icon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/swipe_up_for_video"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:fontFamily="@font/circular"
+                android:text="Swipe up for video"
+                android:textColor="@color/swipe_up_for_video_color"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/path_11_ek6"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="189dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="7dp"
+        android:fontFamily="@font/circular"
+        android:gravity="center_horizontal"
+        android:text="Pranyama - World of Breath"
+        android:textAlignment="center"
+        android:textColor="@color/don_t_just_work_out__work_in__color"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/chapter_1__basics_of_yoga__"
+        app:layout_constraintEnd_toStartOf="@+id/player_back"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/player_back" />
+
+    <TextView
+        android:id="@+id/chapter_1__basics_of_yoga__"
+        android:layout_width="146dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/circular"
+        android:text="Chapter 1 - Basics of yoga"
+        android:textColor="@color/chapter_1__basics_of_yoga___color"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/seekBar"
+        app:layout_constraintEnd_toStartOf="@+id/player_back"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/player_back" />
+
+    <TextView
+        android:id="@+id/live_happier_and_healthier_by_learning_the_fundamentals_of_meditation_and_mindfulness"
+        android:layout_width="196dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/circular"
+        android:text="@string/live_happier_and_healthier_by_learning_the_fundamentals_of_meditation_and_mindfulness_string"
+        android:textColor="@color/don_t_just_work_out__work_in__color"
+        android:textSize="15sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/_3_10_min_course" />
+
+    <HorizontalScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="45dp"
+        android:scrollbarThumbHorizontal="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/live_happier_and_healthier_by_learning_the_fundamentals_of_meditation_and_mindfulness">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="136dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="36dp"
+                android:backgroundTint="@color/rectangle_109_color"
+                app:cardCornerRadius="19dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="136dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="12dp"
+                android:backgroundTint="@color/rectangle_109_color"
+                app:cardCornerRadius="19dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="136dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="12dp"
+                android:backgroundTint="@color/rectangle_109_color"
+                app:cardCornerRadius="19dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="136dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:backgroundTint="@color/rectangle_109_color"
+                app:cardCornerRadius="19dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/player_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tot_time"
+            android:layout_width="34dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/circular_bold"
+            android:text="3:23"
+            android:textColor="@color/don_t_just_work_out__work_in__color"
+            android:textSize="16sp"
+            app:autoSizeTextType="uniform" />
+
+        <ImageView
+            android:id="@+id/yoga_life_mobile_app_4x__2_"
+            android:layout_width="238dp"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/music_stream" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:progressTint="#ffffff"
+        android:thumbTint="#FD774E"
+        android:progress="30"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></SeekBar>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/circular"
+        android:text="0:00"
+        android:textColor="@color/chapter_1__basics_of_yoga___color"
+        app:layout_constraintEnd_toEndOf="@+id/seekBar"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/circular"
+        android:text="0:00"
+        android:textColor="@color/chapter_1__basics_of_yoga___color"
+        app:layout_constraintStart_toStartOf="@+id/seekBar"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/player_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/prev"
+            android:layout_width="29dp"
+            android:layout_height="21.75048828125dp"
+            android:layout_gravity="center"
+            android:src="@drawable/previous_button" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:id="@+id/play"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/play_icon"
+            app:tint="#ffffff"
+            app:backgroundTint="@color/ellipse_26_color"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+        <ImageView
+            android:id="@+id/next"
+            android:layout_width="29dp"
+            android:layout_height="21.75048828125dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/next_button" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

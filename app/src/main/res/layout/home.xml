@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarThumbVertical="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/sdfdsfsd"
+                    android:layout_width="0dp"
+                    android:layout_height="478dp"
+                    android:contentDescription="sdfdsfsd"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sdfdsfsd"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/welcome_to_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="390dp"
+                    android:fontFamily="@font/circular"
+                    android:text="Welcome To"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/sdfdsfsd"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/sdfdsfsd"
+                    app:layout_constraintTop_toTopOf="@+id/sdfdsfsd" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/welcome_to_">
+
+                    <ImageView
+                        android:layout_width="42dp"
+                        android:layout_height="42dp"
+                        android:background="@drawable/logo_back"
+                        android:padding="5dp"
+                        android:src="@drawable/zyoga_logo"></ImageView>
+
+                    <TextView
+                        android:id="@+id/z"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:fontFamily="@font/circular_black"
+                        android:text="Z"
+                        android:textColor="#ffffff"
+                        android:textSize="28sp" />
+
+                    <ImageView
+                        android:id="@+id/path_222"
+                        android:layout_width="75.73486328125dp"
+                        android:layout_height="37.748016357422dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/yoga_image" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/sdfdsfsd">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/fellow_yogis"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/circular"
+                            android:text="Fellow Yogis"
+                            android:textColor="@color/don_t_just_work_out__work_in__color"
+                            android:textSize="18sp" />
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:scrollbarThumbHorizontal="@android:color/transparent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/ellipse_15"
+                                    android:layout_width="56dp"
+                                    android:layout_height="56dp"
+                                    android:layout_marginLeft="25dp"
+                                    android:contentDescription="ellipse_15"
+                                    android:elevation="10dp"
+                                    android:src="@drawable/ellipse_15" />
+
+                                <ImageView
+                                    android:id="@+id/ellipse_16"
+                                    android:layout_width="57dp"
+                                    android:layout_height="56dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:contentDescription="ellipse_16"
+                                    android:elevation="10dp"
+                                    android:src="@drawable/ellipse_16" />
+
+                                <ImageView
+                                    android:id="@+id/ellipse_17"
+                                    android:layout_width="56dp"
+                                    android:layout_height="56dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:contentDescription="ellipse_17"
+                                    android:elevation="10dp"
+                                    android:src="@drawable/ellipse_17" />
+
+                                <ImageView
+                                    android:id="@+id/ellipse_18"
+                                    android:layout_width="57dp"
+                                    android:layout_height="56dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:contentDescription="ellipse_18"
+                                    android:elevation="10dp"
+                                    android:src="@drawable/ellipse_18" />
+
+                                <ImageView
+                                    android:id="@+id/ellipse_19"
+                                    android:layout_width="56dp"
+                                    android:layout_height="56dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:contentDescription="ellipse_19"
+                                    android:elevation="10dp"
+                                    android:src="@drawable/ellipse_19" />
+
+                                <ImageView
+                                    android:layout_width="56dp"
+                                    android:layout_height="56dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:contentDescription="ellipse_19"
+                                    android:elevation="10dp"
+                                    android:src="@drawable/ellipse_19" />
+
+                                <ImageView
+                                    android:layout_width="56dp"
+                                    android:layout_height="56dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="25dp"
+                                    android:contentDescription="ellipse_19"
+                                    android:elevation="10dp"
+                                    android:src="@drawable/ellipse_19" />
+                            </LinearLayout>
+                        </HorizontalScrollView>
+                    </LinearLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp">
+
+                        <TextView
+                            android:id="@+id/continue_courses"
+                            android:layout_width="wrap_content"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginLeft="25dp"
+                            android:fontFamily="@font/circular"
+                            android:text="Continue Courses"
+                            android:textColor="@color/don_t_just_work_out__work_in__color"
+                            android:textSize="18sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/see_all_ek1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/rectangle_86_shape"
+                            android:fontFamily="@font/circular"
+                            android:gravity="center_horizontal"
+                            android:padding="5dp"
+                            android:text="See all"
+                            android:textAlignment="center"
+                            android:textColor="@color/don_t_just_work_out__work_in__color"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:scrollbarThumbHorizontal="@android:color/transparent"
+                            app:layout_constraintTop_toBottomOf="@+id/continue_courses"
+                            tools:layout_editor_absoluteX="4dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <com.google.android.material.card.MaterialCardView
+                                    android:id="@+id/mood"
+                                    android:layout_width="122dp"
+                                    android:layout_height="167dp"
+                                    android:layout_marginLeft="25dp"
+                                    android:backgroundTint="@color/rectangle_98_color"
+                                    android:elevation="15dp"
+                                    android:padding="10dp"
+                                    app:cardCornerRadius="15dp">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <View
+                                            android:id="@+id/ellipse_37"
+                                            android:layout_width="51dp"
+                                            android:layout_height="51dp"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="13dp"
+                                            android:background="@drawable/ellipse_23_shape"
+                                            android:backgroundTint="@color/ellipse_37_color"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+
+                                        <TextView
+                                            android:id="@+id/basics__of__yoga"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="15dp"
+                                            android:fontFamily="@font/circular"
+                                            android:text="Mood Check-in"
+                                            android:textColor="@color/don_t_just_work_out__work_in__color"
+                                            android:textSize="24sp"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toBottomOf="@+id/ellipse_37" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                </com.google.android.material.card.MaterialCardView>
+
+                                <com.google.android.material.card.MaterialCardView
+                                    android:id="@+id/play_music"
+                                    android:layout_width="122dp"
+                                    android:layout_height="167dp"
+                                    android:layout_marginLeft="25dp"
+                                    android:backgroundTint="@color/rectangle_127_color"
+                                    android:elevation="15dp"
+                                    android:padding="10dp"
+                                    app:cardCornerRadius="15dp">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <View
+                                            android:id="@+id/ellipse_371"
+                                            android:layout_width="51dp"
+                                            android:layout_height="51dp"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="13dp"
+                                            android:background="@drawable/ellipse_23_shape"
+                                            android:backgroundTint="@color/ellipse_50_color"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="15dp"
+                                            android:fontFamily="@font/circular"
+                                            android:text="Basics of yoga"
+                                            android:textColor="@color/don_t_just_work_out__work_in__color"
+                                            android:textSize="24sp"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toBottomOf="@+id/ellipse_371" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                </com.google.android.material.card.MaterialCardView>
+
+                                <com.google.android.material.card.MaterialCardView
+                                    android:layout_width="122dp"
+                                    android:layout_height="167dp"
+                                    android:layout_marginLeft="25dp"
+                                    android:backgroundTint="@color/rectangle_126_color"
+                                    android:elevation="15dp"
+                                    android:padding="10dp"
+                                    app:cardCornerRadius="15dp">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <View
+                                            android:id="@+id/ellipse_372"
+                                            android:layout_width="51dp"
+                                            android:layout_height="51dp"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="13dp"
+                                            android:background="@drawable/ellipse_23_shape"
+                                            android:backgroundTint="@color/ellipse_49_color"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="15dp"
+                                            android:fontFamily="@font/circular"
+                                            android:text="Basics of yoga"
+                                            android:textColor="@color/don_t_just_work_out__work_in__color"
+                                            android:textSize="24sp"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toBottomOf="@+id/ellipse_372" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                </com.google.android.material.card.MaterialCardView>
+
+                                <com.google.android.material.card.MaterialCardView
+                                    android:layout_width="122dp"
+                                    android:layout_height="167dp"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"
+                                    android:backgroundTint="@color/rectangle_98_color"
+                                    android:elevation="15dp"
+                                    android:padding="10dp"
+                                    app:cardCornerRadius="15dp">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <View
+                                            android:id="@+id/ellipse_373"
+                                            android:layout_width="51dp"
+                                            android:layout_height="51dp"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="13dp"
+                                            android:background="@drawable/ellipse_23_shape"
+                                            android:backgroundTint="@color/ellipse_37_color"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="15dp"
+                                            android:fontFamily="@font/circular"
+                                            android:text="Basics of yoga"
+                                            android:textColor="@color/don_t_just_work_out__work_in__color"
+                                            android:textSize="24sp"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toBottomOf="@+id/ellipse_373" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                </com.google.android.material.card.MaterialCardView>
+                            </LinearLayout>
+                        </HorizontalScrollView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp">
+
+                        <TextView
+                            android:id="@+id/continue_courses"
+                            android:layout_width="145dp"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginLeft="25dp"
+                            android:fontFamily="@font/circular"
+                            android:text="Our Originals"
+                            android:textColor="@color/don_t_just_work_out__work_in__color"
+                            android:textSize="18sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/see_all_ek1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/rectangle_86_shape"
+                            android:fontFamily="@font/circular"
+                            android:gravity="center_horizontal"
+                            android:padding="5dp"
+                            android:text="See all"
+                            android:textAlignment="center"
+                            android:textColor="@color/don_t_just_work_out__work_in__color"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:scrollbarThumbHorizontal="@android:color/transparent"
+                            app:layout_constraintTop_toBottomOf="@+id/continue_courses"
+                            tools:layout_editor_absoluteX="4dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="122dp"
+                                    android:layout_height="167dp"
+                                    android:layout_marginLeft="25dp"
+                                    android:elevation="15dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_image_1" />
+
+                                <ImageView
+                                    android:layout_width="122dp"
+                                    android:layout_height="167dp"
+                                    android:layout_marginLeft="25dp"
+                                    android:elevation="15dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_image_2" />
+
+                                <ImageView
+                                    android:layout_width="122dp"
+                                    android:layout_height="167dp"
+                                    android:layout_marginLeft="25dp"
+                                    android:elevation="15dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_image_3" />
+
+                                <ImageView
+                                    android:layout_width="122dp"
+                                    android:layout_height="167dp"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"
+                                    android:elevation="15dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_image_2"></ImageView>
+                            </LinearLayout>
+                        </HorizontalScrollView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp">
+
+                        <TextView
+                            android:id="@+id/continue_courses"
+                            android:layout_width="wrap_content"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginLeft="25dp"
+                            android:fontFamily="@font/circular"
+                            android:text="Recommended For you"
+                            android:textColor="@color/don_t_just_work_out__work_in__color"
+                            android:textSize="18sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/see_all_ek1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/rectangle_86_shape"
+                            android:fontFamily="@font/circular"
+                            android:gravity="center_horizontal"
+                            android:padding="5dp"
+                            android:text="See all"
+                            android:textAlignment="center"
+                            android:textColor="@color/don_t_just_work_out__work_in__color"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:scrollbarThumbHorizontal="@android:color/transparent"
+                            app:layout_constraintTop_toBottomOf="@+id/continue_courses"
+                            tools:layout_editor_absoluteX="4dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="122dp"
+                                    android:layout_height="167dp"
+                                    android:layout_marginLeft="25dp"
+                                    android:elevation="15dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_image_4" />
+
+                                <ImageView
+                                    android:layout_width="122dp"
+                                    android:layout_height="167dp"
+                                    android:layout_marginLeft="25dp"
+                                    android:elevation="15dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_image_5" />
+
+                                <ImageView
+                                    android:layout_width="122dp"
+                                    android:layout_height="167dp"
+                                    android:layout_marginLeft="25dp"
+                                    android:elevation="15dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_image_6" />
+
+                                <ImageView
+                                    android:layout_width="122dp"
+                                    android:layout_height="167dp"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"
+                                    android:elevation="15dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/home_image_5"></ImageView>
+
+                            </LinearLayout>
+                        </HorizontalScrollView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="25dp">
+
+                        <TextView
+                            android:id="@+id/continue_courses"
+                            android:layout_width="wrap_content"
+                            android:layout_height="28dp"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginLeft="25dp"
+                            android:fontFamily="@font/circular"
+                            android:text="Quick &amp; Easy"
+                            android:textColor="@color/don_t_just_work_out__work_in__color"
+                            android:textSize="18sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/see_all_ek1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginRight="15dp"
+                            android:background="@drawable/rectangle_86_shape"
+                            android:fontFamily="@font/circular"
+                            android:gravity="center_horizontal"
+                            android:padding="5dp"
+                            android:text="See all"
+                            android:textAlignment="center"
+                            android:textColor="@color/don_t_just_work_out__work_in__color"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:scrollbarThumbHorizontal="@android:color/transparent"
+                            app:layout_constraintTop_toBottomOf="@+id/continue_courses"
+                            tools:layout_editor_absoluteX="4dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <com.google.android.material.card.MaterialCardView
+                                    android:id="@+id/mood"
+                                    android:layout_width="122dp"
+                                    android:layout_height="167dp"
+                                    android:layout_marginLeft="25dp"
+                                    android:backgroundTint="@color/rectangle_98_color"
+                                    android:elevation="15dp"
+                                    android:padding="10dp"
+                                    app:cardCornerRadius="15dp">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <View
+                                            android:id="@+id/ellipse_37"
+                                            android:layout_width="51dp"
+                                            android:layout_height="51dp"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="13dp"
+                                            android:background="@drawable/ellipse_23_shape"
+                                            android:backgroundTint="@color/ellipse_37_color"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+
+                                        <TextView
+                                            android:id="@+id/basics__of__yoga"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="15dp"
+                                            android:fontFamily="@font/circular"
+                                            android:text="Mood Check-in"
+                                            android:textColor="@color/don_t_just_work_out__work_in__color"
+                                            android:textSize="24sp"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toBottomOf="@+id/ellipse_37" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                </com.google.android.material.card.MaterialCardView>
+
+                                <com.google.android.material.card.MaterialCardView
+                                    android:id="@+id/play_music"
+                                    android:layout_width="122dp"
+                                    android:layout_height="167dp"
+                                    android:layout_marginLeft="25dp"
+                                    android:backgroundTint="@color/rectangle_127_color"
+                                    android:elevation="15dp"
+                                    android:padding="10dp"
+                                    app:cardCornerRadius="15dp">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <View
+                                            android:id="@+id/ellipse_371"
+                                            android:layout_width="51dp"
+                                            android:layout_height="51dp"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="13dp"
+                                            android:background="@drawable/ellipse_23_shape"
+                                            android:backgroundTint="@color/ellipse_50_color"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="15dp"
+                                            android:fontFamily="@font/circular"
+                                            android:text="Basics of yoga"
+                                            android:textColor="@color/don_t_just_work_out__work_in__color"
+                                            android:textSize="24sp"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toBottomOf="@+id/ellipse_371" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                </com.google.android.material.card.MaterialCardView>
+
+                                <com.google.android.material.card.MaterialCardView
+                                    android:layout_width="122dp"
+                                    android:layout_height="167dp"
+                                    android:layout_marginLeft="25dp"
+                                    android:backgroundTint="@color/rectangle_126_color"
+                                    android:elevation="15dp"
+                                    android:padding="10dp"
+                                    app:cardCornerRadius="15dp">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <View
+                                            android:id="@+id/ellipse_372"
+                                            android:layout_width="51dp"
+                                            android:layout_height="51dp"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="13dp"
+                                            android:background="@drawable/ellipse_23_shape"
+                                            android:backgroundTint="@color/ellipse_49_color"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="15dp"
+                                            android:fontFamily="@font/circular"
+                                            android:text="Basics of yoga"
+                                            android:textColor="@color/don_t_just_work_out__work_in__color"
+                                            android:textSize="24sp"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toBottomOf="@+id/ellipse_372" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                </com.google.android.material.card.MaterialCardView>
+
+                                <com.google.android.material.card.MaterialCardView
+                                    android:layout_width="122dp"
+                                    android:layout_height="167dp"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"
+                                    android:backgroundTint="@color/rectangle_98_color"
+                                    android:elevation="15dp"
+                                    android:padding="10dp"
+                                    app:cardCornerRadius="15dp">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <View
+                                            android:id="@+id/ellipse_373"
+                                            android:layout_width="51dp"
+                                            android:layout_height="51dp"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="13dp"
+                                            android:background="@drawable/ellipse_23_shape"
+                                            android:backgroundTint="@color/ellipse_37_color"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="10dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="15dp"
+                                            android:fontFamily="@font/circular"
+                                            android:text="Basics of yoga"
+                                            android:textColor="@color/don_t_just_work_out__work_in__color"
+                                            android:textSize="24sp"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toBottomOf="@+id/ellipse_373" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                </com.google.android.material.card.MaterialCardView>
+                            </LinearLayout>
+                        </HorizontalScrollView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
